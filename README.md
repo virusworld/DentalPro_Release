@@ -23,18 +23,6 @@ DentalPro is an advanced, production-ready Dental Clinic Management System built
 ### Production
 Simply download the latest `dentalclinic.exe` from the [Releases](https://github.com/virusworld/DentalPro_Release/releases) page and run it. The SQLite database will be automatically created and seeded on the first run.
 
-### Development
-
-To build the application yourself, you can use the provided build script:
-```powershell
-cd scripts
-.\build_and_embed.bat
-```
-This script will:
-1. Compile the React frontend using Vite.
-2. Copy the production build assets into the Go backend's `public/dist` directory.
-3. Embed the assets and compile a single `dentalclinic.exe` binary.
-
 ## 🔒 License
 
 This software requires a valid cryptographic license key to operate. Please refer to the system administrator to generate a license file.
